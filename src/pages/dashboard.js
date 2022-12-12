@@ -25,39 +25,8 @@ export default function Dashboard() {
                     <button className="btn btn-warning">Pin</button>
                 </div>
             </div>
-            <div className="card col-lg-3 col-md-3 col-sm-12 m-1">
-                <img className="card-img-top m-2" style={{height: "150px", width:"100%" }} src="https://picsum.photos/200/300" alt="Card  cap" />
-                <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-                <div className="card-footer text-center">
-                    <button className="btn btn-lg btn-success ">Manage</button>
-                </div>
-            </div>
-            <div className="card col-lg-3 col-md-3 col-sm-12 m-1">
-                <img className="card-img-top m-2" style={{height: "150px", width:"100%" }} src="https://picsum.photos/200/300" alt="Card  cap" />
-                <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-                <div className="card-footer text-center">
-                    <button className="btn btn-lg btn-success ">Manage</button>
-                </div>
-            </div>
-            <div className="card col-lg-3 col-md-3 col-sm-12 m-1">
-                <img className="card-img-top m-2" style={{height: "150px", width:"100%" }} src="https://picsum.photos/200/300" alt="Card  cap" />
-                <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-                <div className="card-footer text-center">
-                    <button className="btn btn-lg btn-success ">Manage</button>
-                </div>
-            </div>
+            
+            
             
         </div>
        
