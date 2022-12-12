@@ -20,8 +20,7 @@ root.render(
       <Route path="/resset-password" element={<RessetPassword/>} />
       <Route path="/dashboard" element={<Dashboard/>} />
       <Route path="/space" element={<Space/>} />
-      <Route path="/ptofile" element={<Profile/>} />
-
+      <Route path="/profile" element={<Profile/>} />
     </Routes>
     
   </React.StrictMode>

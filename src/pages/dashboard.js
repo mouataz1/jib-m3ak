@@ -1,7 +1,8 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import Header from '../components/header.component'
-import Sidebar from '../components/sidebar.component'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Header from '../components/header.component';
+//import Sidebar from '../components/sidebar.component'
+
 
 export default function Dashboard() {
   return (
@@ -12,7 +13,8 @@ export default function Dashboard() {
         </div>
         <div className="card-deck row m-2">
             <div className="card col-lg-3 col-md-3 col-sm-12 m-1">
-                <img className="card-img-top m-2" style={{height: "150px", width:"100%" }} src="https://picsum.photos/200/300" alt="Card image cap" />
+                <img className="card-img-top m-2" style={{height: "150px", width:"100%" }} src="https://picsum.photos/200/300" alt="Card cap" />
+
                 <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -24,7 +26,7 @@ export default function Dashboard() {
                 </div>
             </div>
             <div className="card col-lg-3 col-md-3 col-sm-12 m-1">
-                <img className="card-img-top m-2" style={{height: "150px", width:"100%" }} src="https://picsum.photos/200/300" alt="Card image cap" />
+                <img className="card-img-top m-2" style={{height: "150px", width:"100%" }} src="https://picsum.photos/200/300" alt="Card  cap" />
                 <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -35,7 +37,7 @@ export default function Dashboard() {
                 </div>
             </div>
             <div className="card col-lg-3 col-md-3 col-sm-12 m-1">
-                <img className="card-img-top m-2" style={{height: "150px", width:"100%" }} src="https://picsum.photos/200/300" alt="Card image cap" />
+                <img className="card-img-top m-2" style={{height: "150px", width:"100%" }} src="https://picsum.photos/200/300" alt="Card  cap" />
                 <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -46,7 +48,7 @@ export default function Dashboard() {
                 </div>
             </div>
             <div className="card col-lg-3 col-md-3 col-sm-12 m-1">
-                <img className="card-img-top m-2" style={{height: "150px", width:"100%" }} src="https://picsum.photos/200/300" alt="Card image cap" />
+                <img className="card-img-top m-2" style={{height: "150px", width:"100%" }} src="https://picsum.photos/200/300" alt="Card  cap" />
                 <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
